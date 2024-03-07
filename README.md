@@ -20,10 +20,19 @@ Dividi in due array separati le zucchine che misurano meno o più di 15cm.
 Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 
 ## SVOLGIMENTO
-1. creare un arrei di 10 oggetti
+1. creare un array di 10 oggetti
   - specifica il peso e la lugnhezza
 
 2. devo trovare le zucchine che misurano meno di 15cm
   - trova zucchine che misurano più di 15cm
 
 3. trova il peso dei due array ottenuti
+===
+
+JSnack 3
+Scrivi una funzione che accetti una stringa come argomento e la ritorni girata (es. Ciao -> oaiC)
+
+## SVOLGIMENTO
+1. scrivi una funzione che accetti una stringa come argomento
+
+2. inverti 

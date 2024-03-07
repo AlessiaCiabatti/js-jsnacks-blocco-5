@@ -54,10 +54,10 @@ const zucchine = [
   },
 ]
 
-var pesoComplessivo = 0;
+let pesoComplessivo = 0;
 
 // 2
-for (var i = 0; i < zucchine.length; i++) {
+for (let i = 0; i < zucchine.length; i++) {
   // Aggiungi il peso della zucchina corrente al peso complessivo
   pesoComplessivo += zucchine[i].peso;
 }
@@ -85,14 +85,36 @@ console.log(zucchinePiuDi15cm);
 // 3
 // zucchina.peso perchè io voglio accedere al peso di ogni singola zucchina, non al peso dell'intero array
 // il primo parametro di reduce() serve come un'accumulazione dei risultati ottenuti su ciascun elemento dell'array attraverso le varie iterazioni
+let pesoVuoto = 0;
 const totalePesoMenoDi15cm = zucchineMenoDi15cm.reduce((sommaPeso, zucchina) =>{
   return sommaPeso + zucchina.peso;
-});
+}, pesoVuoto);
+
+console.log('snack 2',zucchineMenoDi15cm);
 
 console.log(totalePesoMenoDi15cm);
 
+
 const totalePesoPiuDi15cm = zucchinePiuDi15cm.reduce((sommaPeso, zucchina) =>{
   return sommaPeso + zucchina.peso;
-});
+}, pesoVuoto);
 
 console.log(totalePesoPiuDi15cm);
+
+
+
+//JSnack 3
+function saluto(ciao) {
+  console.log(ciao);
+
+  var caratteri = ciao.split('');
+  var caratteriInvertiti = caratteri.reverse();
+  var stringaInvertita = caratteriInvertiti.join('');
+
+  console.log(stringaInvertita);
+  return stringaInvertita;
+  
+};
+
+saluto('ciao');
+
