@@ -36,3 +36,18 @@ Scrivi una funzione che accetti una stringa come argomento e la ritorni girata (
 1. scrivi una funzione che accetti una stringa come argomento
 
 2. inverti 
+===
+
+JSnack 4
+Scrivi una funzione che fonda due array (aventi lo stesso numero di elementi) prendendo alternativamente gli elementi da uno e dall’altro
+es. [a,b,c], [1,2,3] → [a,1,b,2,c,3]
+
+## SVOLGIMENTO
+1. realizzare due array
+  - questi due array devono avere la stessa lunghezza
+
+2. attraverso un ciclo for devo pushare i valori all'interno di un terzo array
+  - fai un terzo array vuoto
+
+
+

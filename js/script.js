@@ -97,7 +97,8 @@ console.log(totalePesoMenoDi15cm);
 
 const totalePesoPiuDi15cm = zucchinePiuDi15cm.reduce((sommaPeso, zucchina) =>{
   return sommaPeso + zucchina.peso;
-}, pesoVuoto);
+}, 0);
+// 0 è il contatore
 
 console.log(totalePesoPiuDi15cm);
 
@@ -117,4 +118,21 @@ function saluto(ciao) {
 };
 
 saluto('ciao');
+
+
+
+// JSnack 4
+const array1 = ['a', 'b', 'c'];
+const array2 = [1, 2, 3,];
+const newArray = [];
+
+function unireArray(){
+  for(let i = 0; i < array1.length; i++){
+    newArray.push(array1[i]);
+    newArray.push(array2[i]);
+}
+}
+
+unireArray()
+console.log(newArray);
 
