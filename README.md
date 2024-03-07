@@ -12,3 +12,15 @@ Calcola quanto pesano tutte le zucchine.
   - specifica il peso e la lugnhezza
 
 2. attraverso un ciclo, devo sommare il peso delle zucchine
+===
+
+JSnack 2
+Crea 10 oggetti che rappresentano una zucchina.
+Dividi in due array separati le zucchine che misurano meno o più di 15cm.
+Infine stampa separatamente quanto pesano i due gruppi di zucchine.
+
+## SVOLGIMENTO
+1. creare un arrei di 10 oggetti
+  - specifica il peso e la lugnhezza
+
+2. devo trovare le zucchine che misurano meno di 15

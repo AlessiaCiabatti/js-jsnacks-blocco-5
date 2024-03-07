@@ -24,7 +24,7 @@ const zucchine = [
   },
   {
     zucchina: 'tonde',
-    lunghezza: 11,
+    lunghezza: 21,
     peso: 7,
   },
   {
@@ -44,7 +44,7 @@ const zucchine = [
   },
   {
     zucchina: 'rugoso friulano',
-    lunghezza: 15,
+    lunghezza: 25,
     peso: 10,
   },
   {
@@ -63,3 +63,16 @@ for (var i = 0; i < zucchine.length; i++) {
 }
 
 console.log("Il peso complessivo di tutte le zucchine è: " + pesoComplessivo + " grammi.");
+
+
+
+
+//JSnack 2
+
+// 2
+// filter restituisce valori che soddisfano una determinata condizione
+// Filter restituisce sempre un array
+const zucchineMenoDi15cm = zucchine.filter(zucchina => {
+  return zucchina.lunghezza < 15;
+});
+console.log(zucchineMenoDi15cm);
