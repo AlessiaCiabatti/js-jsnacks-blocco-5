@@ -25,3 +25,5 @@ Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 
 2. devo trovare le zucchine che misurano meno di 15cm
   - trova zucchine che misurano più di 15cm
+
+3. trova il peso dei due array ottenuti

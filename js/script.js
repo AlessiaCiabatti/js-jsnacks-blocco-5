@@ -78,6 +78,21 @@ const zucchineMenoDi15cm = zucchine.filter(zucchina => {
 console.log(zucchineMenoDi15cm);
 // 2
 const zucchinePiuDi15cm = zucchine.filter(zucchina => {
-  return zucchina.lunghezza > 15;
+  return zucchina.lunghezza >= 15;
 });
 console.log(zucchinePiuDi15cm);
+
+// 3
+// zucchina.peso perchè io voglio accedere al peso di ogni singola zucchina, non al peso dell'intero array
+// il primo parametro di reduce() serve come un'accumulazione dei risultati ottenuti su ciascun elemento dell'array attraverso le varie iterazioni
+const totalePesoMenoDi15cm = zucchineMenoDi15cm.reduce((sommaPeso, zucchina) =>{
+  return sommaPeso + zucchina.peso;
+});
+
+console.log(totalePesoMenoDi15cm);
+
+const totalePesoPiuDi15cm = zucchinePiuDi15cm.reduce((sommaPeso, zucchina) =>{
+  return sommaPeso + zucchina.peso;
+});
+
+console.log(totalePesoPiuDi15cm);
