@@ -48,6 +48,19 @@ es. [a,b,c], [1,2,3] → [a,1,b,2,c,3]
 
 2. attraverso un ciclo for devo pushare i valori all'interno di un terzo array
   - fai un terzo array vuoto
+===
 
+JSnack 5
+Scrivi una funzione che accetti tre argomenti:
+un array e due numeri (“a” più piccolo di “b” e “b” grande al massimo quanto il numero di elementi dell’array).
+La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra “a” e “b”
+
+## SVOLGIMENTO
+1. scrivere un array a più piccolo di un array b, array b grande al massimo quanto il numero di elementi dell’array.
+
+2. realizzzare un array vuoto dove andranno i valori combresi tra a e b
+
+3. con un ciclo for parto dal valore di a fino alla lunghezza dell'array
+  - se i valori sono compresi tra a e b li pusho nel nuovo array
 
 

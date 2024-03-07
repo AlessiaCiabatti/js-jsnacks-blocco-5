@@ -122,8 +122,10 @@ saluto('ciao');
 
 
 // JSnack 4
+// 2
 const array1 = ['a', 'b', 'c'];
 const array2 = [1, 2, 3,];
+// 3
 const newArray = [];
 
 function unireArray(){
@@ -136,3 +138,20 @@ function unireArray(){
 unireArray()
 console.log(newArray);
 
+
+// JSnack 5
+// 1
+const a = 2
+const b = 10
+const arrayIniziale = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+// 2
+const arrayFinale = []
+
+// 3
+for (let i = a; i < arrayIniziale.length; i++) {
+  if (i <= b) {
+    arrayFinale.push(i);
+  }
+}
+
+console.log(arrayFinale);
