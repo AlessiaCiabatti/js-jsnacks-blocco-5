@@ -76,3 +76,8 @@ const zucchineMenoDi15cm = zucchine.filter(zucchina => {
   return zucchina.lunghezza < 15;
 });
 console.log(zucchineMenoDi15cm);
+// 2
+const zucchinePiuDi15cm = zucchine.filter(zucchina => {
+  return zucchina.lunghezza > 15;
+});
+console.log(zucchinePiuDi15cm);
